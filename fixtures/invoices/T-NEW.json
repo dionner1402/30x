@@ -1,0 +1,25 @@
+{
+  "fixtureId": "T-NEW",
+  "tags": [
+    "new_payee"
+  ],
+  "expectedOutcome": "HOLD",
+  "autonomyMode": "autopilot",
+  "invoice": {
+    "tenantId": "blinka-demo",
+    "source": "fixture",
+    "payeeName": "Nova Vendor SAS",
+    "amount": 300,
+    "currency": "USD",
+    "invoiceNumber": "INV-2048",
+    "issueDate": "2026-10-02",
+    "lineItems": [
+      {
+        "desc": "services",
+        "amount": 300
+      }
+    ],
+    "tax": 0,
+    "agreedAmount": 300
+  }
+}

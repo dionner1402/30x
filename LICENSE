@@ -1,0 +1,49 @@
+Copyright (c) 2026 DG ARTECH Studio
+All rights reserved.
+
+EzAllow and this repository are proprietary software of DG ARTECH Studio
+(https://dgartech.com).
+
+================================================================================
+SOURCE-AVAILABLE · EVALUATION ONLY (NOT AN OPEN-SOURCE LICENSE)
+================================================================================
+
+You may:
+
+  1. View and clone this repository for personal study or for evaluating EzAllow
+     in the context of the 30X × Blinka hackathon / demo review.
+  2. Run the software locally for non-production evaluation, provided you keep
+     copyright and proprietary notices intact.
+
+You may NOT (without prior written permission from DG ARTECH Studio):
+
+  1. Use this software or any substantial portion in production, commercial
+     products, competing products, or paid services.
+  2. Copy, modify, fork, redistribute, sublicense, sell, or publish derivative
+     works based on this code, documentation, brand assets, algorithms, or
+     fixtures beyond the limited evaluation rights above.
+  3. Remove or alter copyright, trademark, "Powered by DG ARTECH Studio", or
+     proprietary notices.
+  4. Use the names, logos, or marks EzAllow, DG ARTECH, DG ARTECH Studio, or
+     related branding to imply endorsement or affiliation without permission.
+  5. Claim authorship or ownership of this work.
+
+THIRD-PARTY COMPONENTS
+
+  Open-source dependencies retain their own licenses (see package managers and
+  NOTICE). This LICENSE does not relicense those components.
+
+WARRANTY DISCLAIMER
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+  LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+CONTACT
+
+  Rights, licensing, and commercial inquiries:
+  https://dgartech.com
+
+  See also: docs/IP.md

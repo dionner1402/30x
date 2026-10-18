@@ -1,0 +1,18 @@
+{
+  "fixtureId": "T-OVER",
+  "tags": [
+    "over_hard"
+  ],
+  "expectedOutcome": "DENY",
+  "autonomyMode": "autopilot",
+  "invoice": {
+    "tenantId": "blinka-demo",
+    "source": "fixture",
+    "payeeName": "Cloudflare Inc",
+    "amount": 6200,
+    "currency": "USD",
+    "invoiceNumber": "INV-2051",
+    "issueDate": "2026-10-04",
+    "agreedAmount": 6200
+  }
+}

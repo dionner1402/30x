@@ -1,0 +1,23 @@
+{
+  "version": "1.2.0",
+  "tenantId": "blinka-demo",
+  "allowlistPayees": [
+    "acme supplies llc",
+    "cloudflare inc",
+    "juan perez consulting",
+    "latam ops ltd",
+    "didit labs sas",
+    "braven payee co",
+    "dapta services llc",
+    "macondo soft ltd",
+    "signa media inc",
+    "creditop spa"
+  ],
+  "hardCap": 5000,
+  "softCap": 1000,
+  "periodBudget": 25000,
+  "blockNewPayees": true,
+  "maxMismatchPercent": 5,
+  "currency": "USD",
+  "allowFuzzyPayeeMatch": false
+}

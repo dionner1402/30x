@@ -1,0 +1,26 @@
+{
+  "fixtureId": "N07",
+  "tags": [
+    "happy"
+  ],
+  "expectedOutcome": "PAY",
+  "autonomyMode": "autopilot",
+  "invoice": {
+    "tenantId": "blinka-demo",
+    "source": "fixture",
+    "payeeName": "Dapta Services LLC",
+    "amount": 410,
+    "currency": "USD",
+    "invoiceNumber": "DP-12",
+    "issueDate": "2026-10-01",
+    "dueDate": "2026-10-30",
+    "lineItems": [
+      {
+        "desc": "line-1",
+        "amount": 410
+      }
+    ],
+    "tax": 0,
+    "agreedAmount": 410
+  }
+}

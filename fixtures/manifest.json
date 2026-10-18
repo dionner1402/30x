@@ -1,0 +1,202 @@
+{
+  "tenantId": "blinka-demo",
+  "policy": "policies/demo.json",
+  "count": 24,
+  "normals": 15,
+  "traps": 9,
+  "fixtures": [
+    {
+      "fixtureId": "N01",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N01.json"
+    },
+    {
+      "fixtureId": "N02",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N02.json"
+    },
+    {
+      "fixtureId": "N03",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N03.json"
+    },
+    {
+      "fixtureId": "N04",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N04.json"
+    },
+    {
+      "fixtureId": "N05",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N05.json"
+    },
+    {
+      "fixtureId": "N06",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N06.json"
+    },
+    {
+      "fixtureId": "N07",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N07.json"
+    },
+    {
+      "fixtureId": "N08",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N08.json"
+    },
+    {
+      "fixtureId": "N09",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N09.json"
+    },
+    {
+      "fixtureId": "N10",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N10.json"
+    },
+    {
+      "fixtureId": "N11",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N11.json"
+    },
+    {
+      "fixtureId": "N12",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N12.json"
+    },
+    {
+      "fixtureId": "N13",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N13.json"
+    },
+    {
+      "fixtureId": "N14",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N14.json"
+    },
+    {
+      "fixtureId": "N15",
+      "tags": [
+        "happy"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/N15.json"
+    },
+    {
+      "fixtureId": "T-DUP",
+      "tags": [
+        "duplicate"
+      ],
+      "expectedOutcome": "DENY",
+      "file": "invoices/T-DUP.json"
+    },
+    {
+      "fixtureId": "T-NEW",
+      "tags": [
+        "new_payee"
+      ],
+      "expectedOutcome": "HOLD",
+      "file": "invoices/T-NEW.json"
+    },
+    {
+      "fixtureId": "T-MISMATCH",
+      "tags": [
+        "mismatch"
+      ],
+      "expectedOutcome": "HOLD",
+      "file": "invoices/T-MISMATCH.json"
+    },
+    {
+      "fixtureId": "T-OVER",
+      "tags": [
+        "over_hard"
+      ],
+      "expectedOutcome": "DENY",
+      "file": "invoices/T-OVER.json"
+    },
+    {
+      "fixtureId": "T-SOFT",
+      "tags": [
+        "over_soft"
+      ],
+      "expectedOutcome": "PAY",
+      "file": "invoices/T-SOFT.json"
+    },
+    {
+      "fixtureId": "T-BUDGET",
+      "tags": [
+        "budget"
+      ],
+      "expectedOutcome": "HOLD",
+      "file": "invoices/T-BUDGET.json"
+    },
+    {
+      "fixtureId": "T-MATH",
+      "tags": [
+        "math"
+      ],
+      "expectedOutcome": "DENY",
+      "file": "invoices/T-MATH.json"
+    },
+    {
+      "fixtureId": "T-INJECT",
+      "tags": [
+        "injection"
+      ],
+      "expectedOutcome": "DENY",
+      "file": "invoices/T-INJECT.json"
+    },
+    {
+      "fixtureId": "T-INJECT-BANK",
+      "tags": [
+        "injection",
+        "bank_redirect"
+      ],
+      "expectedOutcome": "DENY",
+      "file": "invoices/T-INJECT-BANK.json"
+    }
+  ]
+}

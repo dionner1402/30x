@@ -1,0 +1,26 @@
+{
+  "fixtureId": "N09",
+  "tags": [
+    "happy"
+  ],
+  "expectedOutcome": "PAY",
+  "autonomyMode": "autopilot",
+  "invoice": {
+    "tenantId": "blinka-demo",
+    "source": "fixture",
+    "payeeName": "Signa Media Inc",
+    "amount": 640,
+    "currency": "USD",
+    "invoiceNumber": "SG-201",
+    "issueDate": "2026-10-01",
+    "dueDate": "2026-10-30",
+    "lineItems": [
+      {
+        "desc": "line-1",
+        "amount": 600
+      }
+    ],
+    "tax": 40,
+    "agreedAmount": 640
+  }
+}

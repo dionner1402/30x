@@ -1,0 +1,18 @@
+{
+  "fixtureId": "T-SOFT",
+  "tags": [
+    "over_soft"
+  ],
+  "expectedOutcome": "PAY",
+  "autonomyMode": "autopilot",
+  "invoice": {
+    "tenantId": "blinka-demo",
+    "source": "fixture",
+    "payeeName": "Latam Ops Ltd",
+    "amount": 2400,
+    "currency": "USD",
+    "invoiceNumber": "INV-2052",
+    "issueDate": "2026-10-05",
+    "agreedAmount": 2400
+  }
+}

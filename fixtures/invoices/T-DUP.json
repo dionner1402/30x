@@ -1,0 +1,31 @@
+{
+  "fixtureId": "T-DUP",
+  "tags": [
+    "duplicate"
+  ],
+  "expectedOutcome": "DENY",
+  "autonomyMode": "autopilot",
+  "notes": "Mismo fingerprint que N01 → DENY fail-closed; humano puede excepcionar si FP",
+  "duplicateOf": "N01",
+  "invoice": {
+    "tenantId": "blinka-demo",
+    "source": "fixture",
+    "payeeName": "ACME Supplies LLC",
+    "amount": 420,
+    "currency": "USD",
+    "invoiceNumber": "INV-2041",
+    "issueDate": "2026-10-01",
+    "lineItems": [
+      {
+        "desc": "line-1",
+        "amount": 300
+      },
+      {
+        "desc": "line-2",
+        "amount": 100
+      }
+    ],
+    "tax": 20,
+    "agreedAmount": 420
+  }
+}

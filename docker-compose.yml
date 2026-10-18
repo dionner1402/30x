@@ -1,0 +1,31 @@
+services:
+  mongo:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    volumes:
+      - ezallow_mongo:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      PORT: 3001
+      MONGODB_URI: mongodb://mongo:27017/ezallow
+      NODE_ENV: production
+    depends_on:
+      mongo:
+        condition: service_healthy
+    profiles:
+      - full
+
+volumes:
+  ezallow_mongo:

@@ -1,0 +1,26 @@
+{
+  "fixtureId": "N10",
+  "tags": [
+    "happy"
+  ],
+  "expectedOutcome": "PAY",
+  "autonomyMode": "autopilot",
+  "invoice": {
+    "tenantId": "blinka-demo",
+    "source": "fixture",
+    "payeeName": "Creditop SpA",
+    "amount": 155,
+    "currency": "USD",
+    "invoiceNumber": "CR-9",
+    "issueDate": "2026-10-01",
+    "dueDate": "2026-10-30",
+    "lineItems": [
+      {
+        "desc": "line-1",
+        "amount": 155
+      }
+    ],
+    "tax": 0,
+    "agreedAmount": 155
+  }
+}

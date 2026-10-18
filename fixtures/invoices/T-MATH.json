@@ -1,0 +1,25 @@
+{
+  "fixtureId": "T-MATH",
+  "tags": [
+    "math"
+  ],
+  "expectedOutcome": "DENY",
+  "autonomyMode": "autopilot",
+  "invoice": {
+    "tenantId": "blinka-demo",
+    "source": "fixture",
+    "payeeName": "ACME Supplies LLC",
+    "amount": 500,
+    "currency": "USD",
+    "invoiceNumber": "INV-2070",
+    "issueDate": "2026-10-07",
+    "lineItems": [
+      {
+        "desc": "broken",
+        "amount": 100
+      }
+    ],
+    "tax": 0,
+    "agreedAmount": 500
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "fixtureId": "N13",
+  "tags": [
+    "happy"
+  ],
+  "expectedOutcome": "PAY",
+  "autonomyMode": "autopilot",
+  "invoice": {
+    "tenantId": "blinka-demo",
+    "source": "fixture",
+    "payeeName": "Latam Ops Ltd",
+    "amount": 812,
+    "currency": "USD",
+    "invoiceNumber": "LO-920",
+    "issueDate": "2026-10-01",
+    "dueDate": "2026-10-30",
+    "lineItems": [
+      {
+        "desc": "line-1",
+        "amount": 800
+      }
+    ],
+    "tax": 12,
+    "agreedAmount": 812
+  }
+}

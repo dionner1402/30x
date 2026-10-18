@@ -1,0 +1,52 @@
+# Dependencies & build
+node_modules
+dist
+.next
+.turbo
+*.tsbuildinfo
+coverage
+
+# Secrets & local env (NUNCA subir)
+.env
+.env.*
+!.env.example
+apps/*/.env
+apps/*/.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+**/secrets/**
+**/SERVER.txt
+
+# Logs & OS
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / local
+.idea
+.vscode/*
+!.vscode/extensions.json
+.cursor/
+
+# Deploy artifacts
+*.tgz
+deploy/*.tgz
+.tmp/
+
+# Local DB dumps
+*.bson
+dump/
+
+# Interno DG ARTECH (no publicar)
+docs/
+deploy/
+Resumen.md
+BOCETO.HTML
+**/DG_SERVER/**
+competidores-*.md
+GRAFICOS/
